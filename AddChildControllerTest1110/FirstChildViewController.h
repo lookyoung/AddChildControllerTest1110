@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstChildViewController.h
 //  AddChildControllerTest1110
 //
 //  Created by liuyang on 16/11/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FirstChildViewController : UIViewController
 
 @end
-

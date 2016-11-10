@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		CD295EA11DD40C2800A1D706 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295EA01DD40C2800A1D706 /* main.m */; };
 		CD295EA41DD40C2800A1D706 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295EA31DD40C2800A1D706 /* AppDelegate.m */; };
-		CD295EA71DD40C2800A1D706 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295EA61DD40C2800A1D706 /* ViewController.m */; };
 		CD295EAA1DD40C2800A1D706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD295EA81DD40C2800A1D706 /* Main.storyboard */; };
 		CD295EAC1DD40C2800A1D706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD295EAB1DD40C2800A1D706 /* Assets.xcassets */; };
 		CD295EAF1DD40C2800A1D706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD295EAD1DD40C2800A1D706 /* LaunchScreen.storyboard */; };
 		CD295EBA1DD40C2800A1D706 /* AddChildControllerTest1110Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295EB91DD40C2800A1D706 /* AddChildControllerTest1110Tests.m */; };
 		CD295EC51DD40C2800A1D706 /* AddChildControllerTest1110UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295EC41DD40C2800A1D706 /* AddChildControllerTest1110UITests.m */; };
+		CD295ED41DD40CD100A1D706 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295ED31DD40CD100A1D706 /* MainViewController.m */; };
+		CD295ED71DD4129D00A1D706 /* FirstChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295ED61DD4129D00A1D706 /* FirstChildViewController.m */; };
+		CD295EDA1DD412D600A1D706 /* SecondChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295ED91DD412D600A1D706 /* SecondChildViewController.m */; };
+		CD295EDD1DD4134200A1D706 /* ThirdChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD295EDC1DD4134200A1D706 /* ThirdChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		CD295EA01DD40C2800A1D706 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD295EA21DD40C2800A1D706 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD295EA31DD40C2800A1D706 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD295EA51DD40C2800A1D706 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD295EA61DD40C2800A1D706 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD295EA91DD40C2800A1D706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD295EAB1DD40C2800A1D706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD295EAE1DD40C2800A1D706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 		CD295EC01DD40C2800A1D706 /* AddChildControllerTest1110UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddChildControllerTest1110UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD295EC41DD40C2800A1D706 /* AddChildControllerTest1110UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddChildControllerTest1110UITests.m; sourceTree = "<group>"; };
 		CD295EC61DD40C2800A1D706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD295ED21DD40CD100A1D706 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CD295ED31DD40CD100A1D706 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CD295ED51DD4129D00A1D706 /* FirstChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstChildViewController.h; sourceTree = "<group>"; };
+		CD295ED61DD4129D00A1D706 /* FirstChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstChildViewController.m; sourceTree = "<group>"; };
+		CD295ED81DD412D600A1D706 /* SecondChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondChildViewController.h; sourceTree = "<group>"; };
+		CD295ED91DD412D600A1D706 /* SecondChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondChildViewController.m; sourceTree = "<group>"; };
+		CD295EDB1DD4134200A1D706 /* ThirdChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdChildViewController.h; sourceTree = "<group>"; };
+		CD295EDC1DD4134200A1D706 /* ThirdChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,14 @@
 			children = (
 				CD295EA21DD40C2800A1D706 /* AppDelegate.h */,
 				CD295EA31DD40C2800A1D706 /* AppDelegate.m */,
-				CD295EA51DD40C2800A1D706 /* ViewController.h */,
-				CD295EA61DD40C2800A1D706 /* ViewController.m */,
+				CD295ED51DD4129D00A1D706 /* FirstChildViewController.h */,
+				CD295ED61DD4129D00A1D706 /* FirstChildViewController.m */,
+				CD295ED81DD412D600A1D706 /* SecondChildViewController.h */,
+				CD295ED91DD412D600A1D706 /* SecondChildViewController.m */,
+				CD295EDB1DD4134200A1D706 /* ThirdChildViewController.h */,
+				CD295EDC1DD4134200A1D706 /* ThirdChildViewController.m */,
+				CD295ED21DD40CD100A1D706 /* MainViewController.h */,
+				CD295ED31DD40CD100A1D706 /* MainViewController.m */,
 				CD295EA81DD40C2800A1D706 /* Main.storyboard */,
 				CD295EAB1DD40C2800A1D706 /* Assets.xcassets */,
 				CD295EAD1DD40C2800A1D706 /* LaunchScreen.storyboard */,
@@ -273,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD295EA71DD40C2800A1D706 /* ViewController.m in Sources */,
+				CD295ED71DD4129D00A1D706 /* FirstChildViewController.m in Sources */,
 				CD295EA41DD40C2800A1D706 /* AppDelegate.m in Sources */,
+				CD295EDA1DD412D600A1D706 /* SecondChildViewController.m in Sources */,
+				CD295ED41DD40CD100A1D706 /* MainViewController.m in Sources */,
 				CD295EA11DD40C2800A1D706 /* main.m in Sources */,
+				CD295EDD1DD4134200A1D706 /* ThirdChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
